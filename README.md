@@ -17,6 +17,6 @@ jangan lupa tambahkan hasil screenshoot web di dalam file
 
 ### Tambahkan identitas dasar di sini: 
 
-Nama  :
+Nama  : Joy Ravelo Tarigan
 <br>
-NIM   :
+NIM   : 119140037
