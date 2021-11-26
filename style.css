@@ -1,0 +1,170 @@
+* {
+  margin: none;
+  padding: none;
+
+}
+
+/* NAVBAR */
+.navbar{
+ position: relative;
+ z-index: 1;
+}
+
+.nav-title{
+  background-color: red;
+  height: 500px;
+}
+
+.nav-item{
+  font-weight: bold;
+}
+
+.navbar-brand{
+ font-size: 32px;
+ font-weight: bold;
+}
+
+.title{
+  margin-top: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+ul {
+  list-style:none; /*menghilangkan dot list*/
+}
+
+.navbar-info ul li {
+  display:inline; /*membuat menu menjadi Horizontal*/
+  margin-left: 20px;
+
+}
+.navbar-info ul li a{
+    color: white;
+    font-weight: bold;
+  }
+
+.form-data li {
+  display:inline; /*membuat menu menjadi Horizontal*/
+   padding: 20px;
+}
+
+.form-data ul li label{
+  font-weight: bold;
+}
+
+#prodi{
+  width: 27%;
+}
+
+.submit-data td{
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 40%;
+}
+
+
+/*INFO PANEL*/
+.info-panel{
+ background-color: white;
+ box-shadow: 0 3px 20px rgba(0,0,0,0.5);
+ border-radius: 12px;
+ padding: 30px;
+ margin-top: -25%;
+}
+
+.info-panel img{
+ width:80px;
+ height:80px;
+ margin-bottom: 20px;
+ margin-right: 20px;
+}
+
+.info-panel p{
+ font-size: 14px;
+ color:#acacacac;
+ margin-top: -5px;
+}
+
+.info-panel h4{
+ font-size: 16px;
+ text-transform: uppercase;
+ font-weight: bold;
+ margin-top:5px;
+}
+
+.table {
+  margin-top: -15px;
+  margin-bottom: 5px;
+}
+
+/*DESKRIPSI*/
+.deskripsi{
+ margin-top:80px;
+ text-align: center;
+}
+
+.deskripsi h3{
+ font-size:42px;
+ font-weight: 200;
+ text-transform: uppercase;
+ margin-top: 30px;
+}
+
+.deskripsi h3 span{
+ font-weight: 500;
+}
+
+.deskripsi p{
+ font-size: 18px;
+ color: #acacac;
+ font-weight: 200;
+ margin: 25px 0;
+}
+
+/* footer */
+.footer{
+ margin-top:50px;
+}
+
+.footer p{
+  color: #acacac;
+  font-size: 18px;
+}
+
+/* DESKTOP VERSION */
+
+@media(min-width:992px){
+ .navbar-brand, .nav-link{
+  color:white !important;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+ }
+
+ .nav-link{
+  text-transform: uppercase;
+  margin-right:30px;
+ }
+
+ .active::after, .nav-link:hover::after{
+  content: '';
+  display: block;
+  border-bottom :3px solid #0b63dc;
+  width:50%;
+  margin:auto;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+ }
+
+ .jumbotron{
+   margin-top:-75px;
+   height:600px;
+ }
+
+ .jumbotron h1{
+   font-size: 62px;
+ }
+
+ .deskripsi{
+  text-align: left;
+ }
+}
