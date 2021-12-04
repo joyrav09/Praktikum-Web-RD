@@ -1,1 +1,1 @@
-#Maaf Bang, Untuk file tugas minggu 8 ada di branch main
+# Maaf bang, untuk File Tugas 8 ada di branch 8
